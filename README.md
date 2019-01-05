@@ -9,10 +9,15 @@ go run *.go -test
 ```
 
 ## Build & Use
+Get dependent packages, if you don't have them already:
+```sh
+go get gopkg.in/yaml.v2
+```
+Build:
 ```sh
 go build -o $GOPATH/bin/token-up
 ```
-
+Run:
 ```sh
 $GOPATH/bin/token-up
 ```
